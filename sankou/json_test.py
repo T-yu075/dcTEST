@@ -4,7 +4,7 @@ from googleapiclient.errors import HttpError
 import json
 #   抓
 def channel_viedo5():
-    DEVELOPER_KEY = 'AIzaSyCNeYjG4cRWFYifYEoGRQmBDqOfR5BX_rs'
+    DEVELOPER_KEY = ''
     youtube = build('youtube', 'v3', developerKey=DEVELOPER_KEY)
     channel_infor = []  # save apiget
     json_channel = []   # save json_read
